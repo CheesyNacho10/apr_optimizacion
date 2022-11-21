@@ -82,4 +82,4 @@ for r in rc:
     file.write(str(edv)); file.write('\n')
     print(f'{k:3} {r:3.1e} {etr:5.2f} {edv:5.2f}');
     
-    os.system('du -sh ' + filename)
+    #os.system('du -sh ' + filename)
